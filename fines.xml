@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"    
+    tools:context="com.example.test.scrollviews.MainActivity">
+     >
+    
+      
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+        <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent">
+   
+   <TableRow android:background="#0079D6" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+     
+		
+      <TextView
+         android:text="Offense"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="5dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="Penalty (in INR)"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+		
+   </TableRow>
+   
+        
+      
+    <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+      
+     
+		
+      <TextView
+         android:text="1.Driving without a seat belt"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="1000"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+      
+       <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text="2.Triple riding on two-vehicle"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="1000"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+		
+   <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text="3.Driving without helmet"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="1000"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+		
+   <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text="4.Carrying excess luggage"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="1st time:500"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+		
+   <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text=""
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="Then:1500"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="2dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+		
+   <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text="5.Driving without a number plate"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="1st time:500"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+		
+   <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text=""
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="2dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="Then:1500"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="2dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+		
+   <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text="6.Parking in ‘no parking zone"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="2dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="1st time:500"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+		
+   <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text=""
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="Then:1500"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="2dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+		
+   <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text="7.Minor driving vehicle"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="25000"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+		
+   <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text="8.Disobey of traffic signals"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="1st time:5000"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+		
+   <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text=""
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="Then :10000"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="2dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+		
+   <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text="8.Dangerous/rash driving"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="1st time:5000"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+		
+   <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text=""
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="Then :10000"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="2dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+		
+   <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text="9.Using a mobile phone while driving"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="1st time:5000"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+		
+   <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text=""
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="Then :10000"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="2dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+		
+   <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text="10.Drunken driving"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="10000"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+		
+   <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text="11.Driving vehicle without registration"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="2000"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+		
+   <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text="12.Driving uninsured vehicle"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="2000"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+		
+   <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text="13.Violation of road regulations"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="1000"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+		
+   <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text="14.Over-speeding"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="15.For Light motor vehicle (LMV): 1000"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+		
+   <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text=""
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="16.For Medium passenger goods vehicle: 2000"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+		
+   <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text="17.Carrying explosive/inflammable substances"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="10000"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+		
+   <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text="18.Not giving passage to emergency vehicles"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="10000"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+		
+   <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text="19.Driving when mentally or physically unfit to drive"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="For the first offense: 1000"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+		
+   <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text=""
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="For repeat offense: 2000"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="2dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+		
+   <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text="20.Racing"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="	For the first offense: 5000"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+		
+   <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text=""
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="For repeat offense: 10000"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="2dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+	
+    <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text="21.Disqualified person driving a vehicle"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="10000"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+	 <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text="22.Driving a vehicle registered in another state for more than 12 months"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="For the first offense: 500"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+	 <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text=""
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="For repeat offense: 1500"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="2dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+	 <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text="23.Failure to intimate change of the address of vehicle owner"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="For the first offense: 500"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+	 <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text=""
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="For repeat offense: 1500"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="2dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+	 <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text="24.Driving without a valid driving license"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="5000"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+	 <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text="25.Driving without insurance"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="2000"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+	 <TableRow android:background="#DAE8FC" android:padding="5dp"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">
+		
+      <TextView
+         android:text="26.Overloading"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_column="1" />
+      
+      <TextView
+         android:text="2000"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+         android:layout_marginLeft="10dp"
+         android:layout_column="2" />
+      
+      </TableRow>
+	
+   
+       </TableLayout>
+   
+   
+        </HorizontalScrollView>
+    </ScrollView>
+    
+
+</RelativeLayout>
+

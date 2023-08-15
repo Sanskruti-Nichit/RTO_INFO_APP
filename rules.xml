@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:paddingLeft="10dp"
+     android:paddingRight="10dp"
+     android:orientation="vertical" >
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+        <HorizontalScrollView 
+            android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    
+
+           <TableLayout
+                 xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_marginTop="20dp"
+                 android:paddingLeft="10dp"
+                 android:paddingRight="10dp" >
+
+               <TableRow
+                     android:background="#0079D6"
+                     android:padding="5dp" >
+
+                    
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="Rules" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="Explaination" />
+                 </TableRow>
+
+               <TableRow
+                     android:background="#DAE8FC"
+                     android:padding="5dp" >
+
+                    
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="KEEP LEFT " />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="The driver of a motor vehicle shall drive the vehicle as close to the left hand side of the road as may be expedient and shall allow all traffic which is proceeding in the direction to pass on his right hand side."/>
+                 </TableRow>
+               
+              <TableRow
+                     android:background="#DAE8FC"
+                     android:padding="5dp" >
+
+                     
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="TURNING TO LEFT AND RIGHT  " />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="The driver of a motor vehicle shall – when turning to left, drive as close as may be to the left-hand side of the road from which he is making the turn and of the road which he is entering • when turning to the right draw as near as may be to the centre of the road along which he is travelling and arrive as near as may be at the left-hand side of the road which the driver is entering"           />
+                 </TableRow>
+               
+           <TableRow
+                    android:background="#DAE8FC"
+                     android:padding="5dp" >
+
+                    
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="PASSING TO THE RIGHT" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="Except as provided in regulation 5, the driver of a motor vehicles shall pass to the right of all traffic proceeding in the same direction as himself." />
+                 </TableRow>
+              
+            <TableRow
+                    android:background="#DAE8FC"
+                     android:padding="5dp" >
+
+                    
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="PASSING TO THE LEFT" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="The driver of a motor vehicle may pass to the left of a vehicle the driver of which having inducted an intention to turn to the right has drawn to the centre to the Road and may pass on either side."/>
+  </TableRow>
+           
+<TableRow
+                    android:background="#DAE8FC"
+                     android:padding="5dp" >
+
+                    
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="OVERTAKING PROHIBITED IN CERTAIN CASES" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="The driver of a motor vehicle shall not pass a vehicle travelling in the same direction as himself."/>
+   </TableRow>
+            
+<TableRow  android:background="#DAE8FC"
+                     android:padding="5dp" >
+           
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="OVERTAKING NOT TO BE OBSTRUCTED" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="The drive of a motor vehicle shall not, when being overtaken or being passed by another vehicle, increase speed or do anything in any way to prevent the other vehicle from passing him."/>
+    </TableRow>
+
+             <TableRow  android:background="#DAE8FC"
+                     android:padding="5dp" >
+                 
+            
+
+           
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="CAUTION AT ROAD JUNCTION " />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="The drive of a motor vehicle shall slow down when approaching such intersection, junction at which traffic is not being regulated, if the road entered is a main road designated as such, give way to the vehicles proceeding along that road, and in any other case give way to all traffic approaching the intersection on his right hand."/>
+                          </TableRow>
+    
+   <TableRow  android:background="#DAE8FC"
+                     android:padding="5dp" >
+             
+
+           
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="GIVING WAY TO TRAFFIC AT ROAD JUNCTION " />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="The driver of a motor vehicle shall, on entering a road intersection, at which traffic is not being regulated, if the road entered is a main road designated as such, give way to the vehicles proceeding along that road, and in any other case give way to all traffic approaching the intersection on his right hand."    />
+    
+ </TableRow>
+            
+   <TableRow  android:background="#DAE8FC"
+                     android:padding="5dp" >
+             
+
+           
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="FIRE SERVICE VEHICLES AND AMBULANCE TO BE GIVEN FREE PASSAGE " />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="Every driver shall on the approach of a fire service vehicle or of an ambulance allow free passage by drawing to the side of the road."/>
+    </TableRow>
+    
+ 
+            
+<TableRow  android:background="#DAE8FC"
+                     android:padding="5dp" >
+             
+           
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="RIGHT TO WAY " />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="The pedestrians have the right of way at uncontrolled pedestrian crossings. When any road is provided with footpath or cycle tracks specially for other traffic, except with permission of a police officer in uniform, a driver shall not drive on such footpath or track."/>
+     </TableRow>
+    
+            
+<TableRow  android:background="#DAE8FC"
+                     android:padding="5dp" >
+             
+           
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="TAKING 'U' TURN" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="No driver shall take a “U” turn where “U” turn is specially prohibited and on busy traffic road. If a “U” turn is allowed the driver shall slow signal by hand as for a right turn, watch in the rear view mirror and turn when safe to do so."/>
+    </TableRow>
+
+<TableRow  android:background="#DAE8FC"
+                     android:padding="5dp" >
+             
+           
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="SIGNALS TO BE GIVEN BY DRIVERS" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="The following signals shall be used by the drivers of all motors vehicles namely"/>
+    </TableRow>
+
+<TableRow  android:background="#DAE8FC"
+                     android:padding="5dp" >
+             
+           
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="DIRECTION INDICATOR" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="The signals referred to in regulation 12, may be simplified also by mechanical or electronic devices."/>
+    </TableRow>
+
+<TableRow  android:background="#DAE8FC"
+                     android:padding="5dp" >
+             
+           
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="PARKING OF THE VEHICLE" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="Every driver of a motor vehicle parking on any road shall park in such a way that it does not cause or is not likely to cause danger, obstruction or undue inconvenience to other road users and it the manner or parking is indicated by any sign board or markings on the road side, he shall park his vehicle in such manner."/>
+    </TableRow>
+
+<TableRow  android:background="#DAE8FC"
+                     android:padding="5dp" >
+             
+           
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="VISIBILITY OF LAMPS AND REGISTRATION MARKS" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text=" No load or other goods shall be placed on any motor vehicles so as to mask or otherwise interrupt vision of any lamp, registration mark or other mark required to be carried by or exhibited on any motor vehicle by or under Act, unless a duplicate of the lamp or mark so marked or otherwise obscured is exhibited in the manner required by or under the Act for the exhibition of the marked or obscured lamp or mark."/>
+    </TableRow>
+
+<TableRow  android:background="#DAE8FC"
+                     android:padding="5dp" >
+             
+           
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="16 WAY TRAFFIC: A DRIVER SHALL NOT" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="Drive a motor vehicle on roads declared “16 WAY” except in the direction specified by sign boards. • Drive a vehicle in a reverse direction into a road designed “16 WAY”."/>
+    </TableRow>
+
+<TableRow  android:background="#DAE8FC"
+                     android:padding="5dp" >
+             
+           
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="DRIVING ON CHANNELISED ROADS ( LANE TRAFFIC ) " />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="Where any road is marked by lanes for movement of traffic, the driver of a motor vehicle shall drive within the lane and change the lane only after giving proper signal."
+                         />
+    </TableRow>
+
+<TableRow  android:background="#DAE8FC"
+                     android:padding="5dp" >
+             
+           
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="STOP SIGN ON ROAD SURFACE" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="When any line is painted on or inlaid into the surface of any road at the approach to the road junction or to a pedestrian crossing or otherwise,no driver shall drive a motor vehicle so that any part thereof projects beyond that line at any time when a signal to stop is being given by a police officer or by means of a traffic control light or by the display of any traffic sign."
+                         />
+    </TableRow>
+
+<TableRow  android:background="#DAE8FC"
+                     android:padding="5dp" >
+             
+           
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="TOWING" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="No vehicle other than a mechanically disabled motor vehicle or incompletely assembled motor vehicle, a registered trailer or a side car, shall be drawn or towed by any other motor vehicle, except for purposes of delivery and to the nearest filling station or garage."
+                         />
+    </TableRow>
+    <TableRow  android:background="#DAE8FC"
+                     android:padding="5dp" >
+             
+           
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="USE OF HORNS AND SILENCE Z20S" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="A driver of a vehicle shall not • Sound the horn needlessly or continuously or more than necessary to ensure safety. • Sound the horn in silence z20s."
+                         />
+    </TableRow>
+    <TableRow  android:background="#DAE8FC"
+                     android:padding="5dp" >
+             
+           
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="TRAFFIC SIGN AND TRAFFIC POLICE" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="A driver of a motor vehicle and every other person using the road shall obey every direction given whether by signal or otherwise a police officer, or by notice, traffic sign or signal fixed or operated."
+                         />
+    </TableRow>
+    <TableRow  android:background="#DAE8FC"
+                     android:padding="5dp" >
+             
+           
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="DISTANCE FROM VEHICLES IN FRONT " />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="The driver of a motor vehicle moving behind another vehicle shall keep at a sufficient distance from that other vehicle to avoid collision if the vehicle in front should suddenly slow down or stop."
+                         />
+    </TableRow>
+    <TableRow  android:background="#DAE8FC"
+                     android:padding="5dp" >
+             
+           
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="ABRUPT BRAKE" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="No driver of a vehicle shall apply brake abruptly unless it is necessary to do so for safety reasons."
+                         />
+    </TableRow>
+
+           <TableRow  android:background="#DAE8FC"
+                     android:padding="5dp" >
+             
+           
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="VEHICLES GOING UPHILL TO BE GIVEN PRECEDENCE" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="On mountain roads and steep roads, the driver of a motor vehicle travelling down hill shall give precedence to a vehicle going uphill wherever the road is not sufficiently wide to allow the vehicle to pass each other freely without danger, and stop the vehicle to the side of the road in order to allow any vehicle proceed in uphill to pass."
+                         />
+    </TableRow>
+    
+            <TableRow  android:background="#DAE8FC"
+                     android:padding="5dp" >
+             
+           
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="OBSTRUCTION OF DRIVER " />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="A driver of a motor vehicle shall not allow any person to stand or all or anything to be placed in such manner or position as to hamper his control of the vehicle."
+                         />
+    </TableRow>
+           
+             <TableRow android:background="#DAE8FC"
+                     android:padding="5dp" >
+             
+           
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="SPEED TO BE RESTRICTED" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="The driver of a motor vehicle shall, when passing or meeting procession or a body of body of troops or police on the march or when passing workmen engaged on road repairs, drive at a speed not exceeding 25 Km an hour."
+                         />
+    </TableRow>
+            
+              <TableRow  android:background="#DAE8FC"
+                     android:padding="5dp" >
+             
+           
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="DRIVING OF TRACTORS AND GOOD VEHICLES " />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="A driver when driving a tractor shall not carry or allow any person to be carried on tractor. A drive of goods carriage shall not carry in the drivers cabin more numbers of persons than that is menti27d in the registration certificate and shall not carry passengers for hire or reward."
+                         />
+    </TableRow>
+             
+               <TableRow  android:background="#DAE8FC"
+                     android:padding="5dp" >
+             
+           
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="PROJECTION OF LOAD" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="No person shall drive in any public place any motor vehicle which is loaded in a manner likely to cause danger to any person in such a manner that the load or any part thereof of anything extends laterally beyond the body or to the rear or in height beyond the permissible limit."
+                         />
+    </TableRow>
+    
+              <TableRow  android:background="#DAE8FC"
+                     android:padding="5dp" >
+             
+           
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="RESTRICTION TO CARRIAGE OF DANGEROUS SUBSTANCES" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="Except for the fuel and lubricants necessary for the use of the vehicle, no explosive highly inflammable or otherwise dangerous substance, shall be carried on any public service vehicle."
+                         />
+    </TableRow>
+    
+    
+<TableRow  android:background="#DAE8FC"
+                     android:padding="5dp" >
+             
+           
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="RESTRICTION ON DRIVING BACKWARDS" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="No driver of a motor vehicle shall cause the vehicle to be driven backward without first satisfying himself that he will not thereby cause danger or undue inconvenience to any person or in any circumstances, for any greater distance or period of time than may be reasonably necessary in order to turn the vehicle round."
+                         />
+    </TableRow>
+              
+<TableRow  android:background="#DAE8FC"
+                     android:padding="5dp" >
+             
+           
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="PRODUCTION OF DOCUMENTS" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="A person driving a vehicle shall always carry with him his driving license,certificate of registration, certificates of taxation and certificate of insurance of the vehicle and in case of • transport vehicle the permit and fitness certificate,also. • shall on demand by police officer in uniform or an officer of the Motor Vehicles Department in uniform or any other officer authorised by the Government, produce the documents for inspection:"
+                         />
+    </TableRow>
+
+
+                  </TableLayout>
+
+        </HorizontalScrollView>
+    </ScrollView>>
+
+</LinearLayout>
